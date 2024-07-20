@@ -1,7 +1,7 @@
 import streamlit as st
 import os
-os.system("wget https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/linux64/chrome-linux64.zip")
-os.system("unzip chrome-linux64.zip")
+os.system("wget 	https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/linux64/chromedriver-linux64.zip")
+os.system("unzip chromedriver-linux64.zip")
 
 with st.echo():
     from selenium import webdriver
